@@ -29,7 +29,7 @@ What is the sum of the fuel requirements for all of the modules on your spacecra
 */
 
 const fs = require("fs");
-const buffer = fs.readFileSync("./aoc1Input.txt", "utf8");
+const buffer = fs.readFileSync("./DayOneFirstExerciseInputs.txt", "utf8");
 const input = buffer.toString().split("\n");
 
 const fuel = input.map(mass => {
